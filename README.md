@@ -1,10 +1,10 @@
 # Math-Skills
 
-This is a project written in Go that performs the following calculations:  Average, Median, Variance, and Standard Deviation
+This is a project written in Go that performs statistics calculations such as Average, Median, Variance, and Standard Deviation
 
 ## Features
 
-The purpose of this project is to calculate the following:
+The purpose of this project is to calculate:
 
 - Average
 
@@ -14,7 +14,7 @@ The purpose of this project is to calculate the following:
 
 - Standard Deviation
 
-The program reads from a file and prints the result of each statistic mentioned above. 
+The program reads from a file and prints the result of each statistics mentioned above. 
 
 ## Prerequisites
 
