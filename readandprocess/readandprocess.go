@@ -75,7 +75,7 @@ func ReadAndProcess(str string) string {
 
 	var statisticsResult string
 
-	// Check if rounded calculations are greater than allowed range
+	// Check if rounded calculations are greater than allowed range. Display statisticsResult in a formatted manner with 0 decimal places.
 	if roundedAverage >= math.MaxInt64 {
 		statisticsResult += "Error. Average value out of range!\n"
 	} else {
