@@ -27,5 +27,5 @@ func main() {
 
 	statisticsResult := readandprocess.ReadAndProcess(arguments[0])
 
-	fmt.Println(statisticsResult)
+	fmt.Print(statisticsResult)
 }
