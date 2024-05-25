@@ -14,6 +14,7 @@ func FindAverage(num []float64) float64 {
 
 	return average
 }
+
 func FindMedian(num []float64) float64 {
 	var sum, median float64
 
@@ -28,6 +29,7 @@ func FindMedian(num []float64) float64 {
 
 	return median
 }
+
 func FindVariance(num []float64) float64 {
 	var sum, variance float64
 
@@ -35,12 +37,13 @@ func FindVariance(num []float64) float64 {
 	sliceLength := len(num)
 
 	for i := 0; i < sliceLength; i++ {
-		sum = (num[i] - meanOfSlice) * (num[i] - meanOfSlice)
+		sum += (num[i] - meanOfSlice) * (num[i] - meanOfSlice)
 	}
-	variance += sum
+	variance = sum / float64(sliceLength)
 
 	return variance
 }
+
 func FindStandardDeviation(num float64) float64 {
 	standardDeviation := math.Sqrt(num)
 
