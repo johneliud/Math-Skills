@@ -65,7 +65,7 @@ func ReadAndProcess(str string) string {
 	average := calculations.FindAverage(valueSlice)
 	median := calculations.FindMedian(valueSlice)
 	variance := calculations.FindVariance(valueSlice)
-	standardDeviation := calculations.FindStandardDeviation(variance)
+	standardDeviation := calculations.FindStandardDeviation(valueSlice)
 
 	// Round results of the calculations
 	roundedAverage := math.Round(average)
