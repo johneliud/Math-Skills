@@ -6,18 +6,6 @@ This is a project written in Go that performs statistics calculations such as Av
 
 The purpose of this project is to calculate:
 
-- Average
-
-- Median
-
-- Variance
-
-- Standard Deviation
-
-The program reads from a file and prints the result of each statistics mentioned above. 
-
-## Prerequisites
-
 - **Average**
 
 It's the sum of all numbers in a set divided by how many numbers there are.
@@ -32,7 +20,9 @@ It's a measure of how spread out the numbers in a set are from the average. It s
 
 - **Standard Deviation**
 
-It's the square root of the variance.
+It's the square root of variance.
+
+The program reads from a file and prints the result of each statistics mentioned above. 
 
 ## Getting Started
 
